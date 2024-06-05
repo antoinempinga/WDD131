@@ -1,0 +1,193 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Pacifico&display=swap');
+
+
+:root {
+  --primary-color: #9c99e97c ;
+  --secondary-color: #9000ff ;
+  --accent1-color: #15632b63;
+  --accent2-color: #054223;
+  --heading-font: "Playfair Display', serif;";
+  --paragraph-font: Playfair display, Helvetica, sans-serif;
+  --headline-color-on-white: #396E94; 
+  --headline-color-on-color: white;
+  --paragraph-color-on-white: #396E94;
+  --paragraph-color-on-color: white;
+  --paragraph-background-color: #396E94  ;
+  --nav-link-color: #396e9491;
+  --nav-background-color: #D4AC0D;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #396E94;
+}
+
+* {
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --primary-color:rgba(94, 98, 147, 0.526);
+    --secondary-color:rgba(4, 12, 105, 0.942);
+}
+
+body {
+    max-width: 1800px;
+    height: 100vh;
+    background-color:white;
+    font-style: normal;
+    text-align: center;
+    font-family: "Josefin Sans", sans-serif;
+}
+h1, h2{
+    font-family:"Pacifico", cursive;
+    font-size: 25px;
+    color: var(--secondary-color);
+    text-align: center;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+}
+
+/*The Start of the header*/
+header {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    align-self: center;
+    padding: 0.90rem;
+}
+
+.name {
+    color: black;
+}
+
+nav {
+    background-color: var(--accent2-color);
+    list-style: none;
+    width: 100%;
+    height: 30px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none; 
+}
+nav li:hover{
+    border:2px solid white;
+}
+nav ul li a {
+    color: white;
+}
+nav a {
+    text-decoration: none;
+    color:var(--secondary-color);
+    font-size: 25px;
+}
+
+/* The end of the header*/
+/*The start of the main section*/
+.card {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    margin: 10px;
+
+}
+
+.about-me {
+    background-color: rgba(184, 184, 220, 0.316);
+    margin-right: 20px;
+    margin-left: 100px;
+    padding: 10px;
+    border: var(--primary-color) 1px solid;
+    border-radius: 30px;
+    width: 80%;
+}
+
+.first-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.first-part p {
+    margin: 50px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.first-part img {
+    width: 260px;
+    margin: 30px;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color:black;
+    text-align: right;
+    padding: 2px;
+}
+.links li:hover{
+    border:2px solid var(--accent1-color);
+}
+.second-part {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.second-part p {
+    margin: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.second-part img {
+    width: 250px;
+    margin: 30px;
+}
+
+.second-part figure {
+    text-align: center;
+    margin-bottom: 1px;
+}
+
+.about-resources {
+    background-color: rgba(184, 184, 220, 0.316);
+    color: var(--primary-color);
+    padding: 1px;
+    margin-right: 100px;
+    border: var(--primary-color) 1px solid;
+    border-radius: 30px;
+    width: 95%;
+}
+
+.about-resources ul {
+    margin-top: 200px;
+    font-size: 25px;
+    list-style: none;
+    text-align: center;
+}
+/*End of main section*/
+/*start of footer*/
+footer {
+    background-color:var(--accent2-color);
+    color:white;
+    padding: 1.10rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+figcaption {
+    font-size: 20px;
+}
+footer p {
+    font-size: 18px;
+    color: black;
+}
+#currentyear {
+    font-size: 18px;
+}
+/*En of footer and the end of the page*/

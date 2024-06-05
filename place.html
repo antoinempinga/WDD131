@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBUJI MAYI</title>
+    <meta name="author" content="Antoine Mpinga Kalambayi">
+    <meta name="description" content="Country Page | WDD131">
+    <link rel="stylesheet" href="styles/place.css">
+    <script src="scripts/place.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>DEMOCRATIC REPUBLIC OF THE CONGO</h1>
+    </header>
+    <main>
+        <!-- Hero Image Section -->
+        <div class="hero">
+            <picture>
+                <!-- WebP image for desktop -->
+                <img src="images/mbuji_mayi_largest.jpg" media="(min-width: 1000px)">
+                <!-- WebP image for mobile -->
+                <img src="images/mbuji_mayi_small.jpg" media="(min-width: 500px)">
+                <!-- Fallback image for browsers that do not support WebP -->
+            </picture>
+        </div>
+
+
+                <!-- Data Section -->
+        <div class="data">
+            <section class="data-head">
+                <h2>Data</h2> 
+                <!-- Data details -->
+            </section>
+            <div class="weather-list">
+                <div class="first">
+                    <p>Area: </p>
+                    <p>Population: </p>
+                    <p>Capital: </p>
+                    <p>Official Languages: </p>
+                    <p> National Langauges : </p>
+                    <p>Currency: </p>
+                    <p>Time Zone: </p>
+                    <p>Calling Code: </p>
+                    <p>Internet TLD: </p>
+                    <p>Flag : </p>
+                </div>
+                <div class="second">
+                    <p>2 345 410 sq km</p>
+                    <p>105 061 468 hab</p>
+                    <p>Kinshasa</p>
+                    <p>French</p>
+                    <p> Lingala, Kikongo, Tshiluba and Swahili</p>
+                    <p>Congolese Franc (CDF)</p>
+                    <p>UTC+02:00 (CAT)</p>
+                    <p> .cd </p>
+                    <p>+243</p>
+                    <p><img src="images/Flag_of_the_Democratic_Republic_of_the_Congo.svg.png" alt="Flag_of_the_Democratic_Republic_of_the_Congo"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Weather Section -->
+        <div class="weather">
+            <section class="weather-head">
+                <h2>Weather</h2> 
+                <span><img src="images/weather-icon.svg" alt="Weather Icon"></span>
+                <!-- Weather details -->
+            </section>
+            <div class="weather-list">
+                <div class="first">
+                    <p>Temperature:</p>
+                    <p>Conditions:</p>
+                    <p>Wind:</p>
+                    <p>Windchill:</p>
+                </div>
+                <div class="second">
+                    <p>25°C</p>
+                    <p>Partly Cloudy</p>
+                    <p>10km/h</p>
+                    <p id="windchill"></p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>©<span id="currentyear">2024</span>  🥰 Antoine Mpinga Kalambayi  🥰  Democratic Republic of Congo </p>
+         <p>Last Modified: <span id="lastModified"></span></p>
+        </footer>
+</body>
+</html>
